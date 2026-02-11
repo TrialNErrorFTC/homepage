@@ -243,29 +243,29 @@ header {
     display: inline-block;
 }
 
-/* Announcement Banner */
-.announcement-banner {
-    display: block;
-    background-color: var(--highlight-yellow);
-    color: var(--bg-color);
-    text-align: center;
-    padding: 2rem 1rem;
-    font-family: var(--font-heading);
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border-bottom: 3px solid var(--primary-red);
-    transition: all 0.3s ease;
-    background-image: linear-gradient(45deg, rgba(0,0,0,0.05) 25%, transparent 25%, transparent 50%, rgba(0,0,0,0.05) 50%, rgba(0,0,0,0.05) 75%, transparent 75%, transparent);
-    background-size: 20px 20px;
+/* Strategy Tool Card */
+.strategy-tool-container {
+    padding: 2rem 10% 0 10%;
+    display: flex;
+    justify-content: center;
 }
 
-.announcement-banner:hover {
-    background-color: var(--primary-red);
-    color: var(--text-white);
-    letter-spacing: 3px;
+.strategy-card {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.strategy-card h2 {
+    color: var(--highlight-yellow);
+    transition: text-shadow 0.3s ease;
+}
+
+.strategy-card:hover h2 {
+    text-shadow: 0 0 15px var(--highlight-yellow);
+    color: #fff;
 }
 
 /* Footer */
@@ -311,8 +311,7 @@ footer {
         font-size: 2.5rem;
     }
 
-    .announcement-banner {
-        font-size: 1rem;
-        padding: 1rem;
+    .strategy-card h2 {
+        font-size: 1.2rem;
     }
 }
