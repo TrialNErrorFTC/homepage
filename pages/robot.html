@@ -36,6 +36,9 @@
                 <h1>OUR <span class="highlight">MACHINE</span></h1>
                 <p>Detailed specifications and design philosophy of our current competition robot.</p>
             </div>
+             <div class="hero-visual">
+                <img src="../assets/robot.png" alt="Robot Model" class="robot-img" style="max-width: 100%; height: auto;">
+            </div>
         </section>
 
         <section class="info-grid">
@@ -44,23 +47,47 @@
                     <h2>DRIVETRAIN</h2>
                     <div class="status-indicator"></div>
                 </div>
-                <p>Constructed with custom aluminum plates and Mecanum wheels for omnidirectional movement. High-torque motors ensure rapid acceleration across the field.</p>
+                <p>Motors are connected inline with high torque miter gears, allowing for an ultra-compact and modular drivetrain with ample space for internals. Features an inline odometry system with dead-wheels for precise position tracking.</p>
             </article>
 
             <article class="info-card">
                 <div class="card-header">
-                    <h2>INTAKE SYSTEM</h2>
+                    <h2>SHIELD + CAMERA</h2>
                     <div class="status-indicator"></div>
                 </div>
-                <p>Active intake system designed to collect game elements efficiently from any orientation. Features compliant wheels for adaptive grip.</p>
+                <p>A dedicated shield plate prevents artifacts from landing inside the robot, while the integrated camera system enables advanced vision processing.</p>
             </article>
 
             <article class="info-card">
                 <div class="card-header">
-                    <h2>ARM MECHANISM</h2>
+                    <h2>INTAKE</h2>
                     <div class="status-indicator"></div>
                 </div>
-                <p>Multi-stage linear slide system capable of reaching the highest scoring junctions. PID control loop ensures precise positioning.</p>
+                <p>Built with a 3D printed ramp and a row of 60mm Gecko wheels. Intakes artifacts very quickly through a large opening, allowing us to return to scoring faster.</p>
+            </article>
+
+            <article class="info-card">
+                <div class="card-header">
+                    <h2>GRAVITY TRANSFER</h2>
+                    <div class="status-indicator"></div>
+                </div>
+                <p>Uses a curved ramp on the inside to naturally move artifacts using gravity into the shooting position. A 100% reliable and passive design that reduces complexity.</p>
+            </article>
+
+            <article class="info-card">
+                <div class="card-header">
+                    <h2>SHOOTING FLAP</h2>
+                    <div class="status-indicator"></div>
+                </div>
+                <p>Lifts up to push artifacts into the flywheel. Engineered to allow for single, double, or triple fast shots.</p>
+            </article>
+
+            <article class="info-card">
+                <div class="card-header">
+                    <h2>FLYWHEEL & HOOD</h2>
+                    <div class="status-indicator"></div>
+                </div>
+                <p>Large 120mm wheels maintain angular momentum for rapid 3-artifact shots. The hood is controlled by two synced servos for precision (±15 degrees) and speed.</p>
             </article>
         </section>
     </main>

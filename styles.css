@@ -180,7 +180,7 @@ header {
 .info-card {
     background-color: var(--card-bg);
     border: 1px solid #444;
-    padding: 2rem;
+    padding: 1.5rem;
     position: relative;
     border-left: 5px solid var(--primary-red);
     /* Industrial cut corners */
@@ -245,10 +245,11 @@ header {
 
 /* Strategy Tool Card */
 .strategy-tool-container {
-    padding: 2rem 10% 0 10%;
+    padding: 1rem 5% 0 5%;
     display: flex;
     justify-content: center;
 }
+
 
 .strategy-card {
     display: block;
